@@ -1,0 +1,37 @@
+{
+  "name": "portablesampler",
+  "version": "1.0.0",
+  "description": "Chop all the things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "clean": "rm -rf ./node_modules/** && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antihero898/portableSampler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antihero898/portableSampler/issues"
+  },
+  "homepage": "https://github.com/antihero898/portableSampler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "html-webpack-plugin": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
